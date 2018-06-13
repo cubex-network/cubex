@@ -1,0 +1,26 @@
+[Unit]
+Description=CUB's distributed currency daemon
+After=network.target
+
+[Service]
+User=cub
+Group=cub
+
+Type=forking
+PIDFile=/var/lib/cubd/cubd.pid
+
+ExecStart=/usr/bin/cubd -daemon -pid=/var/lib/cubd/cubd.pid \
+          -conf=/etc/cub/cub.conf -datadir=/var/lib/cubd
+
+ExecStop=-/usr/bin/cub-cli -conf=/etc/cub/cub.conf \
+         -datadir=/var/lib/cubd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
