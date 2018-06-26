@@ -81,6 +81,6 @@ Changes to translations as well as new translations can be submitted to
 **Important**: We do not accept translation changes as GitHub pull requests.
 
 ## Donate CUB to support this project
-###### Donation address: CVa72Tuicm3C9KCmLXbZUdcG6mJJoRwQUg
+###### Cubex-Network Donation address: CVa72Tuicm3C9KCmLXbZUdcG6mJJoRwQUg
 
 > Copyright © 2018 Cubex Network
