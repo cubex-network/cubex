@@ -1,6 +1,6 @@
 # Cubex-Network Core Wallet
 
-Cubex-Network Core staging tree 1.0.0.0
+Cubex-Network Core staging tree 2.0.0.0
 ===============================
 
 https://www.cubexcoin.net
