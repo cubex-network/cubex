@@ -1,7 +1,7 @@
-TOR SUPPORT IN CUB
+TOR SUPPORT IN Cubex-Network
 =======================
 
-It is possible to run CUB as a Tor hidden service, and connect to such services.
+It is possible to run Cubex-Network as a Tor hidden service, and connect to such services.
 
 The following directions assume you have a Tor proxy running on port 9050. Many
 distributions default to having a SOCKS proxy listening on port 9050, but others
@@ -10,10 +10,10 @@ port. See [Tor Project FAQ:TBBSocksPort](https://www.torproject.org/docs/faq.htm
 for how to properly configure Tor.
 
 
-Run CUB behind a Tor proxy
+Run Cubex-Network behind a Tor proxy
 ----------------------------------
 
-The first step is running CUB behind a Tor proxy. This will already make all
+The first step is running Cubex-Network behind a Tor proxy. This will already make all
 outgoing connections be anonymized, but more is possible.
 ```
 -proxy=ip:port  Set the proxy server. If SOCKS5 is selected (default), this proxy
@@ -71,7 +71,7 @@ NumEntryGuards 8
 The directory can be different of course, but (both) port numbers should be equal to
 your cubd's P2P listen port (41231 by default).
 ```
--externalip=X   You can tell cub about its publicly reachable address using
+-externalip=X   You can tell Cubex-Network about its publicly reachable address using
                 this option, and this can be a .onion address. Given the above
                 configuration, you can find your onion address in
                 /var/lib/tor/cub-service/hostname. Onion addresses are given
@@ -110,7 +110,7 @@ for normal IPv4/IPv6 communication, use:
 ./cubd -onion=127.0.0.1:9050 -externalip=dnetzj6l4cvo2fxy.onion:989 -discover
 ```
 
-List of known CUB Tor relays
+List of known Cubex-Network Tor relays
 ------------------------------------
 ```
 y5kcscnhpygvvnjn.onion:989

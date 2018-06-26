@@ -13,7 +13,7 @@
  * for both cubd and cub-qt, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
-const std::string CLIENT_NAME("Cub");
+const std::string CLIENT_NAME("Cubex-Network");
 
 /**
  * Client version number
@@ -45,7 +45,7 @@ const std::string CLIENT_NAME("Cub");
 //! git will put "#define GIT_ARCHIVE 1" on the next line inside archives.
 #define GIT_ARCHIVE 1
 #ifdef GIT_ARCHIVE
-#define GIT_COMMIT_ID "cbcb549"
+#define GIT_COMMIT_ID "-dr4ge"
 #define GIT_COMMIT_DATE "Tue, 9 Feb 2016 16:54:57 -0500"
 #endif
 

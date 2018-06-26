@@ -30,10 +30,10 @@
        <item>
         <widget class="QCheckBox" name="bitcoinAtStartup">
          <property name="toolTip">
-          <string>Automatically start CUB after logging in to the system.</string>
+          <string>Automatically start Cubex-Network after logging in to the system.</string>
          </property>
          <property name="text">
-          <string>&amp;Start CUB on system login</string>
+          <string>&amp;Start Cubex-Network on system login</string>
          </property>
         </widget>
        </item>
@@ -268,7 +268,7 @@
        <item>
         <widget class="QCheckBox" name="mapPortUpnp">
          <property name="toolTip">
-          <string>Automatically open the CUB client port on the router. This only works when your router supports UPnP and it is enabled.</string>
+          <string>Automatically open the Cubex-Network client port on the router. This only works when your router supports UPnP and it is enabled.</string>
          </property>
          <property name="text">
           <string>Map port using &amp;UPnP</string>
@@ -288,7 +288,7 @@
        <item>
         <widget class="QCheckBox" name="connectSocks">
          <property name="toolTip">
-          <string>Connect to the CUB network through a SOCKS5 proxy.</string>
+          <string>Connect to the Cubex-Network through a SOCKS5 proxy.</string>
          </property>
          <property name="text">
           <string>&amp;Connect through SOCKS5 proxy (default proxy):</string>
@@ -454,7 +454,7 @@
          <item>
           <widget class="QValueComboBox" name="lang">
            <property name="toolTip">
-            <string>The user interface language can be set here. This setting will take effect after restarting CUB.</string>
+            <string>The user interface language can be set here. This setting will take effect after restarting Cubex-Network.</string>
            </property>
           </widget>
          </item>
@@ -476,7 +476,7 @@
          </property>
          <property name="text">
           <string>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/cubexteam/cubcoin-translations</string>
+https://www.transifex.com/cubex-network/cubex-network-translation</string>
          </property>
          <property name="wordWrap">
           <bool>true</bool>

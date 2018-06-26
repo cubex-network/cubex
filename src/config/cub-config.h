@@ -15,7 +15,7 @@
 #define CLIENT_VERSION_IS_RELEASE true
 
 /* Major version */
-#define CLIENT_VERSION_MAJOR 1
+#define CLIENT_VERSION_MAJOR 2
 
 /* Minor version */
 #define CLIENT_VERSION_MINOR 0
@@ -30,7 +30,7 @@
 #define ENABLE_WALLET 1
 
 /* Define to 1 to enable ZMQ functions */
-#define ENABLE_ZMQ 0
+#define ENABLE_ZMQ 1
 
 /* parameter and return value type for __fdelt_chk */
 /* #undef FDELT_TYPE */
@@ -199,16 +199,16 @@
 #define HAVE_MEMORY_H 1
 
 /* Define to 1 if you have the <miniupnpc/miniupnpc.h> header file. */
-/* #undef HAVE_MINIUPNPC_MINIUPNPC_H */
+#define HAVE_MINIUPNPC_MINIUPNPC_H 1
 
 /* Define to 1 if you have the <miniupnpc/miniwget.h> header file. */
-/* #undef HAVE_MINIUPNPC_MINIWGET_H */
+#define HAVE_MINIUPNPC_MINIWGET_H 1
 
 /* Define to 1 if you have the <miniupnpc/upnpcommands.h> header file. */
-/* #undef HAVE_MINIUPNPC_UPNPCOMMANDS_H */
+#define HAVE_MINIUPNPC_UPNPCOMMANDS_H 1
 
 /* Define to 1 if you have the <miniupnpc/upnperrors.h> header file. */
-/* #undef HAVE_MINIUPNPC_UPNPERRORS_H */
+#define HAVE_MINIUPNPC_UPNPERRORS_H 1
 
 /* Define this symbol if you have MSG_NOSIGNAL */
 #define HAVE_MSG_NOSIGNAL 1
@@ -268,16 +268,16 @@
 #define LT_OBJDIR ".libs/"
 
 /* Define to the address where bug reports for this package should be sent. */
-#define PACKAGE_BUGREPORT "cubex.cash"
+#define PACKAGE_BUGREPORT "cubexcoin.net"
 
 /* Define to the full name of this package. */
-#define PACKAGE_NAME "Cub Core"
+#define PACKAGE_NAME "Cubex-Network Core"
 
 /* Define to the full name and version of this package. */
-#define PACKAGE_STRING "Cub Core 1.0.0"
+#define PACKAGE_STRING "Cubex-Network Core 1.0.0"
 
 /* Define to the one symbol short name of this package. */
-#define PACKAGE_TARNAME "cub"
+#define PACKAGE_TARNAME "Cubex-Network"
 
 /* Define to the home page for this package. */
 #define PACKAGE_URL ""
@@ -311,11 +311,11 @@
 #define USE_DBUS 1
 
 /* Define if QR support should be compiled in */
-/* #undef USE_QRCODE */
+#define USE_QRCODE 1
 
 /* UPnP support not compiled if undefined, otherwise value (0 or 1) determines
    default state */
-/* #undef USE_UPNP */
+#define USE_UPNP 0
 
 /* Define WORDS_BIGENDIAN to 1 if your processor stores words with the most
    significant byte first (like Motorola and SPARC, unlike Intel). */

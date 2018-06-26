@@ -9,150 +9,150 @@
 #define UNUSED
 #endif
 static const char UNUSED *cub_strings[] = {
-QT_TRANSLATE_NOOP("cub-core", ""
+QT_TRANSLATE_NOOP("Cubex-Network-Core", ""
 "(1 = keep tx meta data e.g. account owner and payment request information, 2 "
 "= drop tx meta data)"),
-QT_TRANSLATE_NOOP("cub-core", ""
+QT_TRANSLATE_NOOP("Cubex-Network-Core", ""
 "Allow JSON-RPC connections from specified source. Valid for <ip> are a "
 "single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or "
 "a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times"),
-QT_TRANSLATE_NOOP("cub-core", ""
+QT_TRANSLATE_NOOP("Cubex-Network-Core", ""
 "An error occurred while setting up the RPC address %s port %u for listening: "
 "%s"),
-QT_TRANSLATE_NOOP("cub-core", ""
+QT_TRANSLATE_NOOP("Cubex-Network-Core", ""
 "Bind to given address and always listen on it. Use [host]:port notation for "
 "IPv6"),
-QT_TRANSLATE_NOOP("cub-core", ""
+QT_TRANSLATE_NOOP("Cubex-Network-Core", ""
 "Bind to given address and whitelist peers connecting to it. Use [host]:port "
 "notation for IPv6"),
-QT_TRANSLATE_NOOP("cub-core", ""
+QT_TRANSLATE_NOOP("Cubex-Network-Core", ""
 "Bind to given address to listen for JSON-RPC connections. Use [host]:port "
 "notation for IPv6. This option can be specified multiple times (default: "
 "bind to all interfaces)"),
-QT_TRANSLATE_NOOP("cub-core", ""
-"Cannot obtain a lock on data directory %s. Cub is probably already "
+QT_TRANSLATE_NOOP("Cubex-Network-Core", ""
+"Cannot obtain a lock on data directory %s. Cubex-Network is probably already "
 "running."),
-QT_TRANSLATE_NOOP("cub-core", ""
+QT_TRANSLATE_NOOP("Cubex-Network-Core", ""
 "Change automatic finalized budget voting behavior. mode=auto: Vote for only "
 "exact finalized budget match to my generated budget. (string, default: auto)"),
-QT_TRANSLATE_NOOP("cub-core", ""
+QT_TRANSLATE_NOOP("Cubex-Network-Core", ""
 "Continuously rate-limit free transactions to <n>*1000 bytes per minute "
 "(default:%u)"),
-QT_TRANSLATE_NOOP("cub-core", ""
+QT_TRANSLATE_NOOP("Cubex-Network-Core", ""
 "Create new files with system default permissions, instead of umask 077 (only "
 "effective with disabled wallet functionality)"),
-QT_TRANSLATE_NOOP("cub-core", ""
+QT_TRANSLATE_NOOP("Cubex-Network-Core", ""
 "Delete all wallet transactions and only recover those parts of the "
 "blockchain through -rescan on startup"),
-QT_TRANSLATE_NOOP("cub-core", ""
-"Disable all CUB specific functionality (Masternodes, Obfuscation, SwiftTX, "
+QT_TRANSLATE_NOOP("Cubex-Network-Core", ""
+"Disable all Cubex-Network specific functionality (Masternodes, Obfuscation, SwiftTX, "
 "Budgeting) (0-1, default: %u)"),
-QT_TRANSLATE_NOOP("cub-core", ""
+QT_TRANSLATE_NOOP("Cubex-Network-Core", ""
 "Distributed under the MIT software license, see the accompanying file "
 "COPYING or <http://www.opensource.org/licenses/mit-license.php>."),
-QT_TRANSLATE_NOOP("cub-core", ""
+QT_TRANSLATE_NOOP("Cubex-Network-Core", ""
 "Enable spork administration functionality with the appropriate private key."),
-QT_TRANSLATE_NOOP("cub-core", ""
+QT_TRANSLATE_NOOP("Cubex-Network-Core", ""
 "Enable swifttx, show confirmations for locked transactions (bool, default: "
 "%s)"),
-QT_TRANSLATE_NOOP("cub-core", ""
+QT_TRANSLATE_NOOP("Cubex-Network-Core", ""
 "Enable use of automated obfuscation for funds stored in this wallet (0-1, "
 "default: %u)"),
-QT_TRANSLATE_NOOP("cub-core", ""
+QT_TRANSLATE_NOOP("Cubex-Network-Core", ""
 "Enter regression test mode, which uses a special chain in which blocks can "
 "be solved instantly."),
-QT_TRANSLATE_NOOP("cub-core", ""
+QT_TRANSLATE_NOOP("Cubex-Network-Core", ""
 "Error: Listening for incoming connections failed (listen returned error %s)"),
-QT_TRANSLATE_NOOP("cub-core", ""
+QT_TRANSLATE_NOOP("Cubex-Network-Core", ""
 "Error: Unsupported argument -socks found. Setting SOCKS version isn't "
 "possible anymore, only SOCKS5 proxies are supported."),
-QT_TRANSLATE_NOOP("cub-core", ""
+QT_TRANSLATE_NOOP("Cubex-Network-Core", ""
 "Execute command when a relevant alert is received or we see a really long "
 "fork (%s in cmd is replaced by message)"),
-QT_TRANSLATE_NOOP("cub-core", ""
+QT_TRANSLATE_NOOP("Cubex-Network-Core", ""
 "Execute command when a wallet transaction changes (%s in cmd is replaced by "
 "TxID)"),
-QT_TRANSLATE_NOOP("cub-core", ""
+QT_TRANSLATE_NOOP("Cubex-Network-Core", ""
 "Execute command when the best block changes (%s in cmd is replaced by block "
 "hash)"),
-QT_TRANSLATE_NOOP("cub-core", ""
-"Fees (in Cub/Kb) smaller than this are considered zero fee for relaying "
+QT_TRANSLATE_NOOP("Cubex-Network-Core", ""
+"Fees (in CUB/kb) smaller than this are considered zero fee for relaying "
 "(default: %s)"),
-QT_TRANSLATE_NOOP("cub-core", ""
-"Fees (in Cub/Kb) smaller than this are considered zero fee for transaction "
+QT_TRANSLATE_NOOP("Cubex-Network-Core", ""
+"Fees (in CUB/kb) smaller than this are considered zero fee for transaction "
 "creation (default: %s)"),
-QT_TRANSLATE_NOOP("cub-core", ""
+QT_TRANSLATE_NOOP("Cubex-Network-Core", ""
 "Flush database activity from memory pool to disk log every <n> megabytes "
 "(default: %u)"),
-QT_TRANSLATE_NOOP("cub-core", ""
+QT_TRANSLATE_NOOP("Cubex-Network-Core", ""
 "Found unconfirmed denominated outputs, will wait till they confirm to "
 "continue."),
-QT_TRANSLATE_NOOP("cub-core", ""
+QT_TRANSLATE_NOOP("Cubex-Network-Core", ""
 "How thorough the block verification of -checkblocks is (0-4, default: %u)"),
-QT_TRANSLATE_NOOP("cub-core", ""
+QT_TRANSLATE_NOOP("Cubex-Network-Core", ""
 "If paytxfee is not set, include enough fee so transactions begin "
 "confirmation on average within n blocks (default: %u)"),
-QT_TRANSLATE_NOOP("cub-core", ""
+QT_TRANSLATE_NOOP("Cubex-Network-Core", ""
 "In this mode -genproclimit controls how many blocks are generated "
 "immediately."),
-QT_TRANSLATE_NOOP("cub-core", ""
+QT_TRANSLATE_NOOP("Cubex-Network-Core", ""
 "Invalid amount for -maxtxfee=<amount>: '%s' (must be at least the minrelay "
 "fee of %s to prevent stuck transactions)"),
-QT_TRANSLATE_NOOP("cub-core", ""
+QT_TRANSLATE_NOOP("Cubex-Network-Core", ""
 "Keep the specified amount available for spending at all times (default: 0)"),
-QT_TRANSLATE_NOOP("cub-core", ""
+QT_TRANSLATE_NOOP("Cubex-Network-Core", ""
 "Log transaction priority and fee per kB when mining blocks (default: %u)"),
-QT_TRANSLATE_NOOP("cub-core", ""
+QT_TRANSLATE_NOOP("Cubex-Network-Core", ""
 "Maintain a full transaction index, used by the getrawtransaction rpc call "
 "(default: %u)"),
-QT_TRANSLATE_NOOP("cub-core", ""
+QT_TRANSLATE_NOOP("Cubex-Network-Core", ""
 "Maximum size of data in data carrier transactions we relay and mine "
 "(default: %u)"),
-QT_TRANSLATE_NOOP("cub-core", ""
+QT_TRANSLATE_NOOP("Cubex-Network-Core", ""
 "Maximum total fees to use in a single wallet transaction, setting too low "
 "may abort large transactions (default: %s)"),
-QT_TRANSLATE_NOOP("cub-core", ""
+QT_TRANSLATE_NOOP("Cubex-Network-Core", ""
 "Number of seconds to keep misbehaving peers from reconnecting (default: %u)"),
-QT_TRANSLATE_NOOP("cub-core", ""
+QT_TRANSLATE_NOOP("Cubex-Network-Core", ""
 "Obfuscation uses exact denominated amounts to send funds, you might simply "
 "need to anonymize some more coins."),
-QT_TRANSLATE_NOOP("cub-core", ""
+QT_TRANSLATE_NOOP("Cubex-Network-Core", ""
 "Output debugging information (default: %u, supplying <category> is optional)"),
-QT_TRANSLATE_NOOP("cub-core", ""
+QT_TRANSLATE_NOOP("Cubex-Network-Core", ""
 "Provide liquidity to Obfuscation by infrequently mixing coins on a continual "
 "basis (0-100, default: %u, 1=very frequent, high fees, 100=very infrequent, "
 "low fees)"),
-QT_TRANSLATE_NOOP("cub-core", ""
+QT_TRANSLATE_NOOP("Cubex-Network-Core", ""
 "Query for peer addresses via DNS lookup, if low on addresses (default: 1 "
 "unless -connect)"),
-QT_TRANSLATE_NOOP("cub-core", ""
+QT_TRANSLATE_NOOP("Cubex-Network-Core", ""
 "Require high priority for relaying free or low-fee transactions (default:%u)"),
-QT_TRANSLATE_NOOP("cub-core", ""
+QT_TRANSLATE_NOOP("Cubex-Network-Core", ""
 "Send trace/debug info to console instead of debug.log file (default: %u)"),
-QT_TRANSLATE_NOOP("cub-core", ""
+QT_TRANSLATE_NOOP("Cubex-Network-Core", ""
 "Set maximum size of high-priority/low-fee transactions in bytes (default: %d)"),
-QT_TRANSLATE_NOOP("cub-core", ""
+QT_TRANSLATE_NOOP("Cubex-Network-Core", ""
 "Set the number of script verification threads (%u to %d, 0 = auto, <0 = "
 "leave that many cores free, default: %d)"),
-QT_TRANSLATE_NOOP("cub-core", ""
+QT_TRANSLATE_NOOP("Cubex-Network-Core", ""
 "Set the number of threads for coin generation if enabled (-1 = all cores, "
 "default: %d)"),
-QT_TRANSLATE_NOOP("cub-core", ""
+QT_TRANSLATE_NOOP("Cubex-Network-Core", ""
 "Show N confirmations for a successfully locked transaction (0-9999, default: "
 "%u)"),
-QT_TRANSLATE_NOOP("cub-core", ""
+QT_TRANSLATE_NOOP("Cubex-Network-Core", ""
 "Support filtering of blocks and transaction with bloom filters (default: %u)"),
-QT_TRANSLATE_NOOP("cub-core", ""
+QT_TRANSLATE_NOOP("Cubex-Network-Core", ""
 "SwiftTX requires inputs with at least 6 confirmations, you might need to "
 "wait a few minutes and try again."),
-QT_TRANSLATE_NOOP("cub-core", ""
+QT_TRANSLATE_NOOP("Cubex-Network-Core", ""
 "This is a pre-release test build - use at your own risk - do not use for "
 "staking or merchant applications!"),
-QT_TRANSLATE_NOOP("cub-core", ""
+QT_TRANSLATE_NOOP("Cubex-Network-Core", ""
 "This product includes software developed by the OpenSSL Project for use in "
 "the OpenSSL Toolkit <https://www.openssl.org/> and cryptographic software "
 "written by Eric Young and UPnP software written by Thomas Bernard."),
-QT_TRANSLATE_NOOP("cub-core", ""
+QT_TRANSLATE_NOOP("Cubex-Network-Core", ""
 "To use cubd, or the -server option to cub-qt, you must set an rpcpassword "
 "in the configuration file:\n"
 "%s\n"
@@ -165,293 +165,293 @@ QT_TRANSLATE_NOOP("cub-core", ""
 "permissions.\n"
 "It is also recommended to set alertnotify so you are notified of problems;\n"
 "for example: alertnotify=echo %%s | mail -s \"CUB Alert\" admin@foo.com\n"),
-QT_TRANSLATE_NOOP("cub-core", ""
-"Unable to bind to %s on this computer. Cub is probably already running."),
-QT_TRANSLATE_NOOP("cub-core", ""
+QT_TRANSLATE_NOOP("Cubex-Network-Core", ""
+"Unable to bind to %s on this computer. Cubex-Network is probably already running."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", ""
 "Unable to locate enough Obfuscation denominated funds for this transaction."),
-QT_TRANSLATE_NOOP("cub-core", ""
+QT_TRANSLATE_NOOP("Cubex-Network-Core", ""
 "Unable to locate enough Obfuscation non-denominated funds for this "
-"transaction that are not equal 10000 Cub."),
-QT_TRANSLATE_NOOP("cub-core", ""
+"transaction that are not equal 10000 CUB."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", ""
 "Unable to locate enough funds for this transaction that are not equal 10000 "
-"Cub."),
-QT_TRANSLATE_NOOP("cub-core", ""
+"CUB."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", ""
 "Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: "
 "%s)"),
-QT_TRANSLATE_NOOP("cub-core", ""
+QT_TRANSLATE_NOOP("Cubex-Network-Core", ""
 "Warning: -maxtxfee is set very high! Fees this large could be paid on a "
 "single transaction."),
-QT_TRANSLATE_NOOP("cub-core", ""
+QT_TRANSLATE_NOOP("Cubex-Network-Core", ""
 "Warning: -paytxfee is set very high! This is the transaction fee you will "
 "pay if you send a transaction."),
-QT_TRANSLATE_NOOP("cub-core", ""
+QT_TRANSLATE_NOOP("Cubex-Network-Core", ""
 "Warning: Please check that your computer's date and time are correct! If "
-"your clock is wrong Cub will not work properly."),
-QT_TRANSLATE_NOOP("cub-core", ""
+"your clock is wrong Cubex-Network will not work properly."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", ""
 "Warning: The network does not appear to fully agree! Some miners appear to "
 "be experiencing issues."),
-QT_TRANSLATE_NOOP("cub-core", ""
+QT_TRANSLATE_NOOP("Cubex-Network-Core", ""
 "Warning: We do not appear to fully agree with our peers! You may need to "
 "upgrade, or other nodes may need to upgrade."),
-QT_TRANSLATE_NOOP("cub-core", ""
+QT_TRANSLATE_NOOP("Cubex-Network-Core", ""
 "Warning: error reading wallet.dat! All keys read correctly, but transaction "
 "data or address book entries might be missing or incorrect."),
-QT_TRANSLATE_NOOP("cub-core", ""
+QT_TRANSLATE_NOOP("Cubex-Network-Core", ""
 "Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as "
 "wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect "
 "you should restore from a backup."),
-QT_TRANSLATE_NOOP("cub-core", ""
+QT_TRANSLATE_NOOP("Cubex-Network-Core", ""
 "Whitelist peers connecting from the given netmask or IP address. Can be "
 "specified multiple times."),
-QT_TRANSLATE_NOOP("cub-core", ""
+QT_TRANSLATE_NOOP("Cubex-Network-Core", ""
 "Whitelisted peers cannot be DoS banned and their transactions are always "
 "relayed, even if they are already in the mempool, useful e.g. for a gateway"),
-QT_TRANSLATE_NOOP("cub-core", ""
+QT_TRANSLATE_NOOP("Cubex-Network-Core", ""
 "You must specify a masternodeprivkey in the configuration. Please see "
 "documentation for help."),
-QT_TRANSLATE_NOOP("cub-core", "(41231 could be used only on mainnet)"),
-QT_TRANSLATE_NOOP("cub-core", "(default: %s)"),
-QT_TRANSLATE_NOOP("cub-core", "(default: 1)"),
-QT_TRANSLATE_NOOP("cub-core", "(must be 41231 for mainnet)"),
-QT_TRANSLATE_NOOP("cub-core", "<category> can be:"),
-QT_TRANSLATE_NOOP("cub-core", "Accept command line and JSON-RPC commands"),
-QT_TRANSLATE_NOOP("cub-core", "Accept connections from outside (default: 1 if no -proxy or -connect)"),
-QT_TRANSLATE_NOOP("cub-core", "Accept public REST requests (default: %u)"),
-QT_TRANSLATE_NOOP("cub-core", "Acceptable ciphers (default: %s)"),
-QT_TRANSLATE_NOOP("cub-core", "Add a node to connect to and attempt to keep the connection open"),
-QT_TRANSLATE_NOOP("cub-core", "Allow DNS lookups for -addnode, -seednode and -connect"),
-QT_TRANSLATE_NOOP("cub-core", "Already have that input."),
-QT_TRANSLATE_NOOP("cub-core", "Always query for peer addresses via DNS lookup (default: %u)"),
-QT_TRANSLATE_NOOP("cub-core", "Attempt to force blockchain corruption recovery"),
-QT_TRANSLATE_NOOP("cub-core", "Attempt to recover private keys from a corrupt wallet.dat"),
-QT_TRANSLATE_NOOP("cub-core", "Block creation options:"),
-QT_TRANSLATE_NOOP("cub-core", "Can't denominate: no compatible inputs left."),
-QT_TRANSLATE_NOOP("cub-core", "Can't find random Masternode."),
-QT_TRANSLATE_NOOP("cub-core", "Can't mix while sync in progress."),
-QT_TRANSLATE_NOOP("cub-core", "Cannot downgrade wallet"),
-QT_TRANSLATE_NOOP("cub-core", "Cannot resolve -bind address: '%s'"),
-QT_TRANSLATE_NOOP("cub-core", "Cannot resolve -externalip address: '%s'"),
-QT_TRANSLATE_NOOP("cub-core", "Cannot resolve -whitebind address: '%s'"),
-QT_TRANSLATE_NOOP("cub-core", "Cannot write default address"),
-QT_TRANSLATE_NOOP("cub-core", "Collateral not valid."),
-QT_TRANSLATE_NOOP("cub-core", "Connect only to the specified node(s)"),
-QT_TRANSLATE_NOOP("cub-core", "Connect through SOCKS5 proxy"),
-QT_TRANSLATE_NOOP("cub-core", "Connect to a node to retrieve peer addresses, and disconnect"),
-QT_TRANSLATE_NOOP("cub-core", "Connection options:"),
-QT_TRANSLATE_NOOP("cub-core", "Copyright (C) 2009-%i The Bitcoin Core Developers"),
-QT_TRANSLATE_NOOP("cub-core", "Copyright (C) 2014-%i The Dash Core Developers"),
-QT_TRANSLATE_NOOP("cub-core", "Copyright (C) 2015-%i The PIVX Core Developers"),
-QT_TRANSLATE_NOOP("cub-core", "Copyright (C) %i The CUB Developers"),
-QT_TRANSLATE_NOOP("cub-core", "Corrupted block database detected"),
-QT_TRANSLATE_NOOP("cub-core", "Could not parse -rpcbind value %s as network address"),
-QT_TRANSLATE_NOOP("cub-core", "Could not parse masternode.conf"),
-QT_TRANSLATE_NOOP("cub-core", "Debugging/Testing options:"),
-QT_TRANSLATE_NOOP("cub-core", "Disable safemode, override a real safe mode event (default: %u)"),
-QT_TRANSLATE_NOOP("cub-core", "Discover own IP address (default: 1 when listening and no -externalip)"),
-QT_TRANSLATE_NOOP("cub-core", "Display the stake modifier calculations in the debug.log file."),
-QT_TRANSLATE_NOOP("cub-core", "Display verbose coin stake messages in the debug.log file."),
-QT_TRANSLATE_NOOP("cub-core", "Do not load the wallet and disable wallet RPC calls"),
-QT_TRANSLATE_NOOP("cub-core", "Do you want to rebuild the block database now?"),
-QT_TRANSLATE_NOOP("cub-core", "Done loading"),
-QT_TRANSLATE_NOOP("cub-core", "Enable publish hash block in <address>"),
-QT_TRANSLATE_NOOP("cub-core", "Enable publish hash transaction (locked via SwiftTX) in <address>"),
-QT_TRANSLATE_NOOP("cub-core", "Enable publish hash transaction in <address>"),
-QT_TRANSLATE_NOOP("cub-core", "Enable publish raw block in <address>"),
-QT_TRANSLATE_NOOP("cub-core", "Enable publish raw transaction (locked via SwiftTX) in <address>"),
-QT_TRANSLATE_NOOP("cub-core", "Enable publish raw transaction in <address>"),
-QT_TRANSLATE_NOOP("cub-core", "Enable staking functionality (0-1, default: %u)"),
-QT_TRANSLATE_NOOP("cub-core", "Enable the client to act as a masternode (0-1, default: %u)"),
-QT_TRANSLATE_NOOP("cub-core", "Entries are full."),
-QT_TRANSLATE_NOOP("cub-core", "Error connecting to Masternode."),
-QT_TRANSLATE_NOOP("cub-core", "Error initializing block database"),
-QT_TRANSLATE_NOOP("cub-core", "Error initializing wallet database environment %s!"),
-QT_TRANSLATE_NOOP("cub-core", "Error loading block database"),
-QT_TRANSLATE_NOOP("cub-core", "Error loading wallet.dat"),
-QT_TRANSLATE_NOOP("cub-core", "Error loading wallet.dat: Wallet corrupted"),
-QT_TRANSLATE_NOOP("cub-core", "Error loading wallet.dat: Wallet requires newer version of Cub"),
-QT_TRANSLATE_NOOP("cub-core", "Error opening block database"),
-QT_TRANSLATE_NOOP("cub-core", "Error reading from database, shutting down."),
-QT_TRANSLATE_NOOP("cub-core", "Error recovering public key."),
-QT_TRANSLATE_NOOP("cub-core", "Error"),
-QT_TRANSLATE_NOOP("cub-core", "Error: A fatal internal error occured, see debug.log for details"),
-QT_TRANSLATE_NOOP("cub-core", "Error: Can't select current denominated inputs"),
-QT_TRANSLATE_NOOP("cub-core", "Error: Disk space is low!"),
-QT_TRANSLATE_NOOP("cub-core", "Error: Unsupported argument -tor found, use -onion."),
-QT_TRANSLATE_NOOP("cub-core", "Error: Wallet locked, unable to create transaction!"),
-QT_TRANSLATE_NOOP("cub-core", "Error: You already have pending entries in the Obfuscation pool"),
-QT_TRANSLATE_NOOP("cub-core", "Failed to listen on any port. Use -listen=0 if you want this."),
-QT_TRANSLATE_NOOP("cub-core", "Failed to read block"),
-QT_TRANSLATE_NOOP("cub-core", "Fee (in Cub/kB) to add to transactions you send (default: %s)"),
-QT_TRANSLATE_NOOP("cub-core", "Finalizing transaction."),
-QT_TRANSLATE_NOOP("cub-core", "Force safe mode (default: %u)"),
-QT_TRANSLATE_NOOP("cub-core", "Found enough users, signing ( waiting %s )"),
-QT_TRANSLATE_NOOP("cub-core", "Found enough users, signing ..."),
-QT_TRANSLATE_NOOP("cub-core", "Generate coins (default: %u)"),
-QT_TRANSLATE_NOOP("cub-core", "How many blocks to check at startup (default: %u, 0 = all)"),
-QT_TRANSLATE_NOOP("cub-core", "If <category> is not supplied, output all debugging information."),
-QT_TRANSLATE_NOOP("cub-core", "Importing..."),
-QT_TRANSLATE_NOOP("cub-core", "Imports blocks from external blk000??.dat file"),
-QT_TRANSLATE_NOOP("cub-core", "Include IP addresses in debug output (default: %u)"),
-QT_TRANSLATE_NOOP("cub-core", "Incompatible mode."),
-QT_TRANSLATE_NOOP("cub-core", "Incompatible version."),
-QT_TRANSLATE_NOOP("cub-core", "Incorrect or no genesis block found. Wrong datadir for network?"),
-QT_TRANSLATE_NOOP("cub-core", "Information"),
-QT_TRANSLATE_NOOP("cub-core", "Initialization sanity check failed. Cub is shutting down."),
-QT_TRANSLATE_NOOP("cub-core", "Input is not valid."),
-QT_TRANSLATE_NOOP("cub-core", "Insufficient funds."),
-QT_TRANSLATE_NOOP("cub-core", "Invalid -onion address: '%s'"),
-QT_TRANSLATE_NOOP("cub-core", "Invalid -proxy address: '%s'"),
-QT_TRANSLATE_NOOP("cub-core", "Invalid amount for -maxtxfee=<amount>: '%s'"),
-QT_TRANSLATE_NOOP("cub-core", "Invalid amount for -minrelaytxfee=<amount>: '%s'"),
-QT_TRANSLATE_NOOP("cub-core", "Invalid amount for -mintxfee=<amount>: '%s'"),
-QT_TRANSLATE_NOOP("cub-core", "Invalid amount for -paytxfee=<amount>: '%s' (must be at least %s)"),
-QT_TRANSLATE_NOOP("cub-core", "Invalid amount for -paytxfee=<amount>: '%s'"),
-QT_TRANSLATE_NOOP("cub-core", "Invalid amount for -reservebalance=<amount>"),
-QT_TRANSLATE_NOOP("cub-core", "Invalid masternodeprivkey. Please see documenation."),
-QT_TRANSLATE_NOOP("cub-core", "Invalid netmask specified in -whitelist: '%s'"),
-QT_TRANSLATE_NOOP("cub-core", "Invalid port detected in masternode.conf"),
-QT_TRANSLATE_NOOP("cub-core", "Invalid private key."),
-QT_TRANSLATE_NOOP("cub-core", "Invalid script detected."),
-QT_TRANSLATE_NOOP("cub-core", "Keep N Cub anonymized (default: %u)"),
-QT_TRANSLATE_NOOP("cub-core", "Keep at most <n> unconnectable transactions in memory (default: %u)"),
-QT_TRANSLATE_NOOP("cub-core", "Last Obfuscation was too recent."),
-QT_TRANSLATE_NOOP("cub-core", "Last successful Obfuscation action was too recent."),
-QT_TRANSLATE_NOOP("cub-core", "Limit size of signature cache to <n> entries (default: %u)"),
-QT_TRANSLATE_NOOP("cub-core", "Line: %d"),
-QT_TRANSLATE_NOOP("cub-core", "Listen for JSON-RPC connections on <port> (default: %u or testnet: %u)"),
-QT_TRANSLATE_NOOP("cub-core", "Listen for connections on <port> (default: %u or testnet: %u)"),
-QT_TRANSLATE_NOOP("cub-core", "Loading addresses..."),
-QT_TRANSLATE_NOOP("cub-core", "Loading block index..."),
-QT_TRANSLATE_NOOP("cub-core", "Loading budget cache..."),
-QT_TRANSLATE_NOOP("cub-core", "Loading masternode cache..."),
-QT_TRANSLATE_NOOP("cub-core", "Loading masternode payment cache..."),
-QT_TRANSLATE_NOOP("cub-core", "Loading wallet... (%3.2f %%)"),
-QT_TRANSLATE_NOOP("cub-core", "Loading wallet..."),
-QT_TRANSLATE_NOOP("cub-core", "Lock is already in place."),
-QT_TRANSLATE_NOOP("cub-core", "Lock masternodes from masternode configuration file (default: %u)"),
-QT_TRANSLATE_NOOP("cub-core", "Maintain at most <n> connections to peers (default: %u)"),
-QT_TRANSLATE_NOOP("cub-core", "Masternode options:"),
-QT_TRANSLATE_NOOP("cub-core", "Masternode queue is full."),
-QT_TRANSLATE_NOOP("cub-core", "Masternode:"),
-QT_TRANSLATE_NOOP("cub-core", "Maximum per-connection receive buffer, <n>*1000 bytes (default: %u)"),
-QT_TRANSLATE_NOOP("cub-core", "Maximum per-connection send buffer, <n>*1000 bytes (default: %u)"),
-QT_TRANSLATE_NOOP("cub-core", "Missing input transaction information."),
-QT_TRANSLATE_NOOP("cub-core", "Mixing in progress..."),
-QT_TRANSLATE_NOOP("cub-core", "Need to specify a port with -whitebind: '%s'"),
-QT_TRANSLATE_NOOP("cub-core", "No Masternodes detected."),
-QT_TRANSLATE_NOOP("cub-core", "No compatible Masternode found."),
-QT_TRANSLATE_NOOP("cub-core", "No funds detected in need of denominating."),
-QT_TRANSLATE_NOOP("cub-core", "No matching denominations found for mixing."),
-QT_TRANSLATE_NOOP("cub-core", "Node relay options:"),
-QT_TRANSLATE_NOOP("cub-core", "Non-standard public key detected."),
-QT_TRANSLATE_NOOP("cub-core", "Not compatible with existing transactions."),
-QT_TRANSLATE_NOOP("cub-core", "Not enough file descriptors available."),
-QT_TRANSLATE_NOOP("cub-core", "Not in the Masternode list."),
-QT_TRANSLATE_NOOP("cub-core", "Number of automatic wallet backups (default: 10)"),
-QT_TRANSLATE_NOOP("cub-core", "Obfuscation is idle."),
-QT_TRANSLATE_NOOP("cub-core", "Obfuscation options:"),
-QT_TRANSLATE_NOOP("cub-core", "Obfuscation request complete:"),
-QT_TRANSLATE_NOOP("cub-core", "Obfuscation request incomplete:"),
-QT_TRANSLATE_NOOP("cub-core", "Only accept block chain matching built-in checkpoints (default: %u)"),
-QT_TRANSLATE_NOOP("cub-core", "Only connect to nodes in network <net> (ipv4, ipv6 or onion)"),
-QT_TRANSLATE_NOOP("cub-core", "Options:"),
-QT_TRANSLATE_NOOP("cub-core", "Password for JSON-RPC connections"),
-QT_TRANSLATE_NOOP("cub-core", "Prepend debug output with timestamp (default: %u)"),
-QT_TRANSLATE_NOOP("cub-core", "Print version and exit"),
-QT_TRANSLATE_NOOP("cub-core", "RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)"),
-QT_TRANSLATE_NOOP("cub-core", "RPC server options:"),
-QT_TRANSLATE_NOOP("cub-core", "RPC support for HTTP persistent connections (default: %d)"),
-QT_TRANSLATE_NOOP("cub-core", "Randomly drop 1 of every <n> network messages"),
-QT_TRANSLATE_NOOP("cub-core", "Randomly fuzz 1 of every <n> network messages"),
-QT_TRANSLATE_NOOP("cub-core", "Rebuild block chain index from current blk000??.dat files"),
-QT_TRANSLATE_NOOP("cub-core", "Receive and display P2P network alerts (default: %u)"),
-QT_TRANSLATE_NOOP("cub-core", "Relay and mine data carrier transactions (default: %u)"),
-QT_TRANSLATE_NOOP("cub-core", "Relay non-P2SH multisig (default: %u)"),
-QT_TRANSLATE_NOOP("cub-core", "Rescan the block chain for missing wallet transactions"),
-QT_TRANSLATE_NOOP("cub-core", "Rescanning..."),
-QT_TRANSLATE_NOOP("cub-core", "Run a thread to flush wallet periodically (default: %u)"),
-QT_TRANSLATE_NOOP("cub-core", "Run in the background as a daemon and accept commands"),
-QT_TRANSLATE_NOOP("cub-core", "Send transactions as zero-fee transactions if possible (default: %u)"),
-QT_TRANSLATE_NOOP("cub-core", "Server certificate file (default: %s)"),
-QT_TRANSLATE_NOOP("cub-core", "Server private key (default: %s)"),
-QT_TRANSLATE_NOOP("cub-core", "Session not complete!"),
-QT_TRANSLATE_NOOP("cub-core", "Session timed out."),
-QT_TRANSLATE_NOOP("cub-core", "Set database cache size in megabytes (%d to %d, default: %d)"),
-QT_TRANSLATE_NOOP("cub-core", "Set external address:port to get to this masternode (example: %s)"),
-QT_TRANSLATE_NOOP("cub-core", "Set key pool size to <n> (default: %u)"),
-QT_TRANSLATE_NOOP("cub-core", "Set maximum block size in bytes (default: %d)"),
-QT_TRANSLATE_NOOP("cub-core", "Set minimum block size in bytes (default: %u)"),
-QT_TRANSLATE_NOOP("cub-core", "Set the masternode private key"),
-QT_TRANSLATE_NOOP("cub-core", "Set the number of threads to service RPC calls (default: %d)"),
-QT_TRANSLATE_NOOP("cub-core", "Sets the DB_PRIVATE flag in the wallet db environment (default: %u)"),
-QT_TRANSLATE_NOOP("cub-core", "Show all debugging options (usage: --help -help-debug)"),
-QT_TRANSLATE_NOOP("cub-core", "Shrink debug.log file on client startup (default: 1 when no -debug)"),
-QT_TRANSLATE_NOOP("cub-core", "Signing failed."),
-QT_TRANSLATE_NOOP("cub-core", "Signing timed out."),
-QT_TRANSLATE_NOOP("cub-core", "Signing transaction failed"),
-QT_TRANSLATE_NOOP("cub-core", "Specify configuration file (default: %s)"),
-QT_TRANSLATE_NOOP("cub-core", "Specify connection timeout in milliseconds (minimum: 1, default: %d)"),
-QT_TRANSLATE_NOOP("cub-core", "Specify data directory"),
-QT_TRANSLATE_NOOP("cub-core", "Specify masternode configuration file (default: %s)"),
-QT_TRANSLATE_NOOP("cub-core", "Specify pid file (default: %s)"),
-QT_TRANSLATE_NOOP("cub-core", "Specify wallet file (within data directory)"),
-QT_TRANSLATE_NOOP("cub-core", "Specify your own public address"),
-QT_TRANSLATE_NOOP("cub-core", "Spend unconfirmed change when sending transactions (default: %u)"),
-QT_TRANSLATE_NOOP("cub-core", "Staking options:"),
-QT_TRANSLATE_NOOP("cub-core", "Stop running after importing blocks from disk (default: %u)"),
-QT_TRANSLATE_NOOP("cub-core", "Submitted following entries to masternode: %u / %d"),
-QT_TRANSLATE_NOOP("cub-core", "Submitted to masternode, waiting for more entries ( %u / %d ) %s"),
-QT_TRANSLATE_NOOP("cub-core", "Submitted to masternode, waiting in queue %s"),
-QT_TRANSLATE_NOOP("cub-core", "SwiftTX options:"),
-QT_TRANSLATE_NOOP("cub-core", "Synchronization failed"),
-QT_TRANSLATE_NOOP("cub-core", "Synchronization finished"),
-QT_TRANSLATE_NOOP("cub-core", "Synchronization pending..."),
-QT_TRANSLATE_NOOP("cub-core", "Synchronizing budgets..."),
-QT_TRANSLATE_NOOP("cub-core", "Synchronizing masternode winners..."),
-QT_TRANSLATE_NOOP("cub-core", "Synchronizing masternodes..."),
-QT_TRANSLATE_NOOP("cub-core", "Synchronizing sporks..."),
-QT_TRANSLATE_NOOP("cub-core", "This help message"),
-QT_TRANSLATE_NOOP("cub-core", "This is experimental software."),
-QT_TRANSLATE_NOOP("cub-core", "This is intended for regression testing tools and app development."),
-QT_TRANSLATE_NOOP("cub-core", "This is not a Masternode."),
-QT_TRANSLATE_NOOP("cub-core", "Threshold for disconnecting misbehaving peers (default: %u)"),
-QT_TRANSLATE_NOOP("cub-core", "Transaction amount too small"),
-QT_TRANSLATE_NOOP("cub-core", "Transaction amounts must be positive"),
-QT_TRANSLATE_NOOP("cub-core", "Transaction created successfully."),
-QT_TRANSLATE_NOOP("cub-core", "Transaction fees are too high."),
-QT_TRANSLATE_NOOP("cub-core", "Transaction not valid."),
-QT_TRANSLATE_NOOP("cub-core", "Transaction too large for fee policy"),
-QT_TRANSLATE_NOOP("cub-core", "Transaction too large"),
-QT_TRANSLATE_NOOP("cub-core", "Transmitting final transaction."),
-QT_TRANSLATE_NOOP("cub-core", "Unable to bind to %s on this computer (bind returned error %s)"),
-QT_TRANSLATE_NOOP("cub-core", "Unable to sign spork message, wrong key?"),
-QT_TRANSLATE_NOOP("cub-core", "Unknown network specified in -onlynet: '%s'"),
-QT_TRANSLATE_NOOP("cub-core", "Unknown state: id = %u"),
-QT_TRANSLATE_NOOP("cub-core", "Upgrade wallet to latest format"),
-QT_TRANSLATE_NOOP("cub-core", "Use N separate masternodes to anonymize funds  (2-8, default: %u)"),
-QT_TRANSLATE_NOOP("cub-core", "Use OpenSSL (https) for JSON-RPC connections"),
-QT_TRANSLATE_NOOP("cub-core", "Use UPnP to map the listening port (default: %u)"),
-QT_TRANSLATE_NOOP("cub-core", "Use UPnP to map the listening port (default: 1 when listening)"),
-QT_TRANSLATE_NOOP("cub-core", "Use the test network"),
-QT_TRANSLATE_NOOP("cub-core", "Username for JSON-RPC connections"),
-QT_TRANSLATE_NOOP("cub-core", "Value more than Obfuscation pool maximum allows."),
-QT_TRANSLATE_NOOP("cub-core", "Verifying blocks..."),
-QT_TRANSLATE_NOOP("cub-core", "Verifying wallet..."),
-QT_TRANSLATE_NOOP("cub-core", "Wallet %s resides outside data directory %s"),
-QT_TRANSLATE_NOOP("cub-core", "Wallet is locked."),
-QT_TRANSLATE_NOOP("cub-core", "Wallet needed to be rewritten: restart Cub to complete"),
-QT_TRANSLATE_NOOP("cub-core", "Wallet options:"),
-QT_TRANSLATE_NOOP("cub-core", "Wallet window title"),
-QT_TRANSLATE_NOOP("cub-core", "Warning"),
-QT_TRANSLATE_NOOP("cub-core", "Warning: This version is obsolete, upgrade required!"),
-QT_TRANSLATE_NOOP("cub-core", "Warning: Unsupported argument -benchmark ignored, use -debug=bench."),
-QT_TRANSLATE_NOOP("cub-core", "Warning: Unsupported argument -debugnet ignored, use -debug=net."),
-QT_TRANSLATE_NOOP("cub-core", "Will retry..."),
-QT_TRANSLATE_NOOP("cub-core", "You need to rebuild the database using -reindex to change -txindex"),
-QT_TRANSLATE_NOOP("cub-core", "Your entries added successfully."),
-QT_TRANSLATE_NOOP("cub-core", "Your transaction was accepted into the pool!"),
-QT_TRANSLATE_NOOP("cub-core", "Zapping all transactions from wallet..."),
-QT_TRANSLATE_NOOP("cub-core", "ZeroMQ notification options:"),
-QT_TRANSLATE_NOOP("cub-core", "on startup"),
-QT_TRANSLATE_NOOP("cub-core", "wallet.dat corrupt, salvage failed"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "(41231 could be used only on mainnet)"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "(default: %s)"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "(default: 1)"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "(must be 41231 for mainnet)"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "<category> can be:"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Accept command line and JSON-RPC commands"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Accept connections from outside (default: 1 if no -proxy or -connect)"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Accept public REST requests (default: %u)"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Acceptable ciphers (default: %s)"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Add a node to connect to and attempt to keep the connection open"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Allow DNS lookups for -addnode, -seednode and -connect"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Already have that input."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Always query for peer addresses via DNS lookup (default: %u)"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Attempt to force blockchain corruption recovery"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Attempt to recover private keys from a corrupt wallet.dat"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Block creation options:"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Can't denominate: no compatible inputs left."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Can't find random Masternode."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Can't mix while sync in progress."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Cannot downgrade wallet"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Cannot resolve -bind address: '%s'"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Cannot resolve -externalip address: '%s'"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Cannot resolve -whitebind address: '%s'"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Cannot write default address"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Collateral not valid."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Connect only to the specified node(s)"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Connect through SOCKS5 proxy"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Connect to a node to retrieve peer addresses, and disconnect"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Connection options:"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Copyright (C) 2009-%i The Bitcoin Core Developers"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Copyright (C) 2014-%i The Dash Core Developers"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Copyright (C) 2015-%i The PIVX Core Developers"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Copyright (C) %i The Cubex-Network Developers"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Corrupted block database detected"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Could not parse -rpcbind value %s as network address"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Could not parse masternode.conf"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Debugging/Testing options:"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Disable safemode, override a real safe mode event (default: %u)"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Discover own IP address (default: 1 when listening and no -externalip)"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Display the stake modifier calculations in the debug.log file."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Display verbose coin stake messages in the debug.log file."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Do not load the wallet and disable wallet RPC calls"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Do you want to rebuild the block database now?"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Done loading"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Enable publish hash block in <address>"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Enable publish hash transaction (locked via SwiftTX) in <address>"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Enable publish hash transaction in <address>"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Enable publish raw block in <address>"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Enable publish raw transaction (locked via SwiftTX) in <address>"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Enable publish raw transaction in <address>"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Enable staking functionality (0-1, default: %u)"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Enable the client to act as a masternode (0-1, default: %u)"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Entries are full."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Error connecting to Masternode."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Error initializing block database"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Error initializing wallet database environment %s!"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Error loading block database"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Error loading wallet.dat"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Error loading wallet.dat: Wallet corrupted"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Error loading wallet.dat: Wallet requires newer version of Cubex-Network"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Error opening block database"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Error reading from database, shutting down."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Error recovering public key."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Error"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Error: A fatal internal error occured, see debug.log for details"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Error: Can't select current denominated inputs"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Error: Disk space is low!"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Error: Unsupported argument -tor found, use -onion."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Error: Wallet locked, unable to create transaction!"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Error: You already have pending entries in the Obfuscation pool"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Failed to listen on any port. Use -listen=0 if you want this."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Failed to read block"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Fee (in CUB/kb) to add to transactions you send (default: %s)"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Finalizing transaction."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Force safe mode (default: %u)"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Found enough users, signing ( waiting %s )"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Found enough users, signing ..."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Generate coins (default: %u)"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "How many blocks to check at startup (default: %u, 0 = all)"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "If <category> is not supplied, output all debugging information."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Importing..."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Imports blocks from external blk000??.dat file"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Include IP addresses in debug output (default: %u)"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Incompatible mode."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Incompatible version."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Incorrect or no genesis block found. Wrong datadir for network?"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Information"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Initialization sanity check failed. Cubex-Network is shutting down."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Input is not valid."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Insufficient funds."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Invalid -onion address: '%s'"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Invalid -proxy address: '%s'"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Invalid amount for -maxtxfee=<amount>: '%s'"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Invalid amount for -minrelaytxfee=<amount>: '%s'"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Invalid amount for -mintxfee=<amount>: '%s'"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Invalid amount for -paytxfee=<amount>: '%s' (must be at least %s)"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Invalid amount for -paytxfee=<amount>: '%s'"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Invalid amount for -reservebalance=<amount>"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Invalid masternodeprivkey. Please see documenation."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Invalid netmask specified in -whitelist: '%s'"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Invalid port detected in masternode.conf"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Invalid private key."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Invalid script detected."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Keep N Cubex anonymized (default: %u)"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Keep at most <n> unconnectable transactions in memory (default: %u)"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Last Obfuscation was too recent."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Last successful Obfuscation action was too recent."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Limit size of signature cache to <n> entries (default: %u)"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Line: %d"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Listen for JSON-RPC connections on <port> (default: %u or testnet: %u)"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Listen for connections on <port> (default: %u or testnet: %u)"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Loading addresses..."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Loading block index..."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Loading budget cache..."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Loading masternode cache..."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Loading masternode payment cache..."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Loading wallet... (%3.2f %%)"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Loading wallet..."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Lock is already in place."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Lock masternodes from masternode configuration file (default: %u)"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Maintain at most <n> connections to peers (default: %u)"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Masternode options:"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Masternode queue is full."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Masternode:"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Maximum per-connection receive buffer, <n>*1000 bytes (default: %u)"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Maximum per-connection send buffer, <n>*1000 bytes (default: %u)"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Missing input transaction information."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Mixing in progress..."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Need to specify a port with -whitebind: '%s'"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "No Masternodes detected."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "No compatible Masternode found."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "No funds detected in need of denominating."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "No matching denominations found for mixing."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Node relay options:"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Non-standard public key detected."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Not compatible with existing transactions."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Not enough file descriptors available."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Not in the Masternode list."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Number of automatic wallet backups (default: 10)"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Obfuscation is idle."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Obfuscation options:"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Obfuscation request complete:"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Obfuscation request incomplete:"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Only accept block chain matching built-in checkpoints (default: %u)"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Only connect to nodes in network <net> (ipv4, ipv6 or onion)"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Options:"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Password for JSON-RPC connections"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Prepend debug output with timestamp (default: %u)"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Print version and exit"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "RPC server options:"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "RPC support for HTTP persistent connections (default: %d)"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Randomly drop 1 of every <n> network messages"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Randomly fuzz 1 of every <n> network messages"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Rebuild block chain index from current blk000??.dat files"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Receive and display P2P network alerts (default: %u)"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Relay and mine data carrier transactions (default: %u)"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Relay non-P2SH multisig (default: %u)"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Rescan the block chain for missing wallet transactions"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Rescanning..."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Run a thread to flush wallet periodically (default: %u)"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Run in the background as a daemon and accept commands"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Send transactions as zero-fee transactions if possible (default: %u)"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Server certificate file (default: %s)"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Server private key (default: %s)"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Session not complete!"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Session timed out."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Set database cache size in megabytes (%d to %d, default: %d)"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Set external address:port to get to this masternode (example: %s)"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Set key pool size to <n> (default: %u)"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Set maximum block size in bytes (default: %d)"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Set minimum block size in bytes (default: %u)"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Set the masternode private key"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Set the number of threads to service RPC calls (default: %d)"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Sets the DB_PRIVATE flag in the wallet db environment (default: %u)"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Show all debugging options (usage: --help -help-debug)"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Shrink debug.log file on client startup (default: 1 when no -debug)"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Signing failed."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Signing timed out."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Signing transaction failed"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Specify configuration file (default: %s)"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Specify connection timeout in milliseconds (minimum: 1, default: %d)"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Specify data directory"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Specify masternode configuration file (default: %s)"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Specify pid file (default: %s)"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Specify wallet file (within data directory)"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Specify your own public address"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Spend unconfirmed change when sending transactions (default: %u)"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Staking options:"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Stop running after importing blocks from disk (default: %u)"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Submitted following entries to masternode: %u / %d"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Submitted to masternode, waiting for more entries ( %u / %d ) %s"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Submitted to masternode, waiting in queue %s"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "SwiftTX options:"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Synchronization failed"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Synchronization finished"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Synchronization pending..."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Synchronizing budgets..."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Synchronizing masternode winners..."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Synchronizing masternodes..."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Synchronizing sporks..."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "This help message"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "This is experimental software."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "This is intended for regression testing tools and app development."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "This is not a Masternode."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Threshold for disconnecting misbehaving peers (default: %u)"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Transaction amount too small"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Transaction amounts must be positive"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Transaction created successfully."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Transaction fees are too high."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Transaction not valid."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Transaction too large for fee policy"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Transaction too large"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Transmitting final transaction."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Unable to bind to %s on this computer (bind returned error %s)"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Unable to sign spork message, wrong key?"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Unknown network specified in -onlynet: '%s'"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Unknown state: id = %u"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Upgrade wallet to latest format"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Use N separate masternodes to anonymize funds  (2-8, default: %u)"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Use OpenSSL (https) for JSON-RPC connections"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Use UPnP to map the listening port (default: %u)"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Use UPnP to map the listening port (default: 1 when listening)"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Use the test network"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Username for JSON-RPC connections"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Value more than Obfuscation pool maximum allows."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Verifying blocks..."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Verifying wallet..."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Wallet %s resides outside data directory %s"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Wallet is locked."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Wallet needed to be rewritten: restart Cubex-Network to complete"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Wallet options:"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Wallet window title"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Warning"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Warning: This version is obsolete, upgrade required!"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Warning: Unsupported argument -benchmark ignored, use -debug=bench."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Warning: Unsupported argument -debugnet ignored, use -debug=net."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Will retry..."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "You need to rebuild the database using -reindex to change -txindex"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Your entries added successfully."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Your transaction was accepted into the pool!"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "Zapping all transactions from wallet..."),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "ZeroMQ notification options:"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "on startup"),
+QT_TRANSLATE_NOOP("Cubex-Network-Core", "wallet.dat corrupt, salvage failed"),
 };

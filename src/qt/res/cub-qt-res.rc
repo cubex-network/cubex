@@ -19,14 +19,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "CUB"
-            VALUE "FileDescription",    "Cub (OSS GUI client for CUB)"
+            VALUE "CompanyName",        "Cubex-Network"
+            VALUE "FileDescription",    "Cubex-Network (OSS GUI client for Cubex-Network)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "cub-qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
             VALUE "OriginalFilename",   "cub-qt.exe"
-            VALUE "ProductName",        "Cub"
+            VALUE "ProductName",        "Cubex-Network"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

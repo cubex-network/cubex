@@ -1,14 +1,14 @@
 Translations
 ============
 
-The Cub project has been designed to support multiple localisations. This makes adding new phrases, and completely new languages easily achievable. For managing all application translations, Cub makes use of the Transifex online translation management tool.
+The Cubex-Network project has been designed to support multiple localisations. This makes adding new phrases, and completely new languages easily achievable. For managing all application translations, Cubex-Network makes use of the Transifex online translation management tool.
 
 ### Helping to translate (using Transifex)
 Transifex is setup to monitor the GitHub repo for updates, and when code containing new translations is found, Transifex will process any changes. It may take several hours after a pull-request has been merged, to appear in the Transifex web interface.
 
-Multiple language support is critical in assisting CUB's global adoption, and growth. One of CUB's greatest strengths is cross-border money transfers, any help making that easier is greatly appreciated.
+Multiple language support is critical in assisting Cubex-Network's global adoption, and growth. One of Cubex-Network's greatest strengths is cross-border money transfers, any help making that easier is greatly appreciated.
 
-See the [Transifex CUB project](https://www.transifex.com/cubexteam/cubcoin-translations/) to assist in translations.
+See the [Transifex Cubex-Network project](https://www.transifex.com/cubexteam/cubcoin-translations/) to assist in translations.
 
 ### Writing code with translations
 We use automated scripts to help extract translations in both Qt, and non-Qt source files. It is rarely necessary to manually edit the files in `src/qt/locale/`. The translation source files must adhere to the following format:
