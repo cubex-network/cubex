@@ -1,0 +1,26 @@
+# /etc/conf.d/cubd: config file for /etc/init.d/cubd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/cub/cub.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/cubd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/cubd.pid"
+
+# Where to write cubd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/cubd"
+
+# User and group to own cubd process
+#BITCOIND_USER="cub"
+#BITCOIND_GROUP="cub"
+
+# Path to cubd executable
+#BITCOIND_BIN="/usr/bin/cubd"
+
+# Nice value to run cubd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
