@@ -1,24 +1,24 @@
-# Cub Core Wallet
+# Cubex-Network Core Wallet
 
-CUBEX Core staging tree 1.0.0.0
+Cubex-Network Core staging tree 1.0.0.0
 ===============================
 
 https://www.cubexcoin.net
 
 
-What is CUBEX?
+What is Cubex-Network?
 ----------------
 
 Cubex is an experimental new digital currency that enables anonymous, instant
-payments to anyone, anywhere in the world. Cubex uses peer-to-peer technology
+payments to anyone, anywhere in the world. Cubex-Network uses peer-to-peer technology
 to operate with no central authority: managing transactions and issuing money
-are carried out collectively by the network. Cubex Core is the name of the open
+are carried out collectively by the network. Cubex-Network Core is the name of the open
 source software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the Cubex Core software, see https://www.cubexcoin.net | https://github.com/cubex-network/cubex/releases.
+the Cubex-Network Core software, see https://www.cubexcoin.net | https://github.com/cubex-network/cubex/releases.
 
-##  CUBEX Specifications:
+##  Cubex-Network Specifications:
 
        Ticker: CUB
        Algorithm: X11
@@ -41,7 +41,7 @@ Development Process
 
 The `master` branch is meant to be stable. Development is normally done in separate branches.
 [Tags](https://github.com/cubex-network/cubex/tags) are created to indicate new official,
-stable release versions of Cubex Core.
+stable release versions of Cubex-Network Core.
 
 The contribution workflow is described in [CONTRIBUTING.md](https://github.com/cubex-network/cubex/blob/master/CONTRIBUTING.md).
 
@@ -75,7 +75,7 @@ Translations
 ------------
 
 Changes to translations as well as new translations can be submitted to
-[Cubex Core's Discord Page](https://discord.gg/QHjwumq).
+[Cubex-Network Core's Discord Page](https://discord.gg/QHjwumq).
 
 
 **Important**: We do not accept translation changes as GitHub pull requests.

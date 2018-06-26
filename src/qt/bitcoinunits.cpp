@@ -1,7 +1,7 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2018 CUBEX Developers
+// Copyright (c) 2018 Cubex-Network Developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -42,11 +42,11 @@ QString BitcoinUnits::id(int unit)
 {
     switch (unit) {
     case Cub:
-        return QString("cub");
+        return QString("CUB");
     case mCub:
-        return QString("mcub");
+        return QString("mCUB");
     case uCub:
-        return QString::fromUtf8("ucub");
+        return QString::fromUtf8("uCUB");
     default:
         return QString("???");
     }
@@ -57,22 +57,22 @@ QString BitcoinUnits::name(int unit)
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
         case Cub:
-            return QString("Cub");
+            return QString("CUB");
         case mCub:
-            return QString("mCub");
+            return QString("mCUB");
         case uCub:
-            return QString::fromUtf8("μCub");
+            return QString::fromUtf8("μCUB");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
         case Cub:
-            return QString("tCub");
+            return QString("tCUB");
         case mCub:
-            return QString("mtCub");
+            return QString("mtCUB");
         case uCub:
-            return QString::fromUtf8("μtCub");
+            return QString::fromUtf8("μtCUB");
         default:
             return QString("???");
         }
@@ -84,22 +84,22 @@ QString BitcoinUnits::description(int unit)
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
         case Cub:
-            return QString("Cub");
+            return QString("CUB");
         case mCub:
-            return QString("Milli-Cub (1 / 1" THIN_SP_UTF8 "000)");
+            return QString("Milli-CUB (1 / 1" THIN_SP_UTF8 "000)");
         case uCub:
-            return QString("Micro-Cub (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            return QString("Micro-CUB (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
         case Cub:
-            return QString("TestCubs");
+            return QString("TestCUBs");
         case mCub:
-            return QString("Milli-TestCub (1 / 1" THIN_SP_UTF8 "000)");
+            return QString("Milli-TestCUB (1 / 1" THIN_SP_UTF8 "000)");
         case uCub:
-            return QString("Micro-TestCub (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            return QString("Micro-TestCUB (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }

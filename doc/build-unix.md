@@ -1,10 +1,10 @@
 UNIX BUILD NOTES
 ====================
-Some notes on how to build CUB in Unix.
+Some notes on how to build Cubex-Network in Unix.
 
 Note
 ---------------------
-Always use absolute paths to configure and compile cub and the dependencies,
+Always use absolute paths to configure and compile Cubex-Network and the dependencies,
 for example, when specifying the the path of the dependency:
 
 	../dist/configure --enable-cxx --disable-shared --with-pic --prefix=$BDB_PREFIX
@@ -50,7 +50,7 @@ System requirements
 --------------------
 
 C++ compilers are memory-hungry. It is recommended to have at least 1 GB of
-memory available when compiling Cub. With 512MB of memory or less
+memory available when compiling Cubex-Network. With 512MB of memory or less
 compilation will take much longer due to swap thrashing.
 
 Dependency Build Instructions: Ubuntu & Debian
@@ -166,7 +166,7 @@ If you need to build Boost yourself:
 
 Security
 --------
-To help make your CUB installation more secure by making certain attacks impossible to
+To help make your Cubex-Network installation more secure by making certain attacks impossible to
 exploit even if a vulnerability is found, binaries are hardened by default.
 This can be disabled with:
 
@@ -198,7 +198,7 @@ Hardening enables the following features:
 
 * Non-executable Stack
     If the stack is executable then trivial stack based buffer overflow exploits are possible if
-    vulnerable buffers are found. By default, cub should be built with a non-executable stack
+    vulnerable buffers are found. By default, Cubex-Network should be built with a non-executable stack
     but if one of the libraries it uses asks for an executable stack or someone makes a mistake
     and uses a compiler extension which requires an executable stack, it will silently build an
     executable without the non-executable stack protection.

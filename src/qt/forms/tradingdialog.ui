@@ -181,7 +181,7 @@
       <string>Asks</string>
      </property>
     </widget>
-    <widget class="QLabel" name="CubSupply">
+    <widget class="QLabel" name="CubexSupply">
      <property name="geometry">
       <rect>
        <x>540</x>
@@ -432,7 +432,7 @@
     <attribute name="title">
      <string>Buy</string>
     </attribute>
-    <widget class="QPushButton" name="BuyCub">
+    <widget class="QPushButton" name="BuyCubex">
      <property name="geometry">
       <rect>
        <x>30</x>
@@ -442,7 +442,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>Buy Cub</string>
+      <string>Buy CUB</string>
      </property>
      <property name="icon">
       <iconset resource="../cub.qrc">
@@ -512,7 +512,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>Cub</string>
+      <string>CUB</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_5">
@@ -1704,7 +1704,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>Cub</string>
+      <string>CUB</string>
      </property>
     </widget>
     <widget class="QLineEdit" name="UnitsInputCub">
@@ -1751,7 +1751,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>Sell Cub</string>
+      <string>Sell CUB</string>
      </property>
      <property name="icon">
       <iconset resource="../cub">
@@ -1777,7 +1777,7 @@
          </font>
         </property>
         <property name="text">
-         <string>Cub Available:</string>
+         <string>CUB Available:</string>
         </property>
        </widget>
       </item>
@@ -2221,7 +2221,7 @@
          </font>
         </property>
         <property name="text">
-         <string>Cub</string>
+         <string>CUB</string>
         </property>
        </widget>
       </item>
@@ -2762,7 +2762,7 @@
       </font>
      </property>
      <property name="text">
-      <string>Cub Balance:</string>
+      <string>CUB Balance:</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_12">
@@ -2813,7 +2813,7 @@
       </font>
      </property>
      <property name="text">
-      <string>Cub Available:</string>
+      <string>CUB Available:</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_14">
@@ -2928,7 +2928,7 @@
       </font>
      </property>
      <property name="text">
-      <string>Bittrex Cub Deposit Address:</string>
+      <string>Bittrex Cubex-Network Deposit Address:</string>
      </property>
     </widget>
     <widget class="QPushButton" name="GenDepositBTN">
@@ -2941,7 +2941,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>Generate Cub Deposit Address</string>
+      <string>Generate Cubex-Network Deposit Address</string>
      </property>
      <property name="icon">
       <iconset resource="../cub.qrc">

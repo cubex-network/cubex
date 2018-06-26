@@ -44,8 +44,8 @@ Instructions: Homebrew
 
 1. Clone the github tree to get the source code and go into the directory.
 
-        git clone https://github.com/cubexteam/cub.git
-        cd cub
+        git clone https://github.com/cubex-network/cubex.git
+        cd cubex
 
 2.  Build cubd:
 
@@ -116,6 +116,6 @@ you can monitor its process by looking at the debug.log file, like this:
 Other commands:
 -------
 
-    ./cubd -daemon # to start the cub daemon.
+    ./cubd -daemon # to start the Cubex-Network daemon.
     ./cub-cli --help  # for a list of command-line options.
     ./cub-cli help    # When the daemon is running, to get a list of RPC commands

@@ -1,9 +1,9 @@
 Gitian building
 ================
 
-*Setup instructions for a gitian build of CUB using a Debian VM or physical system.*
+*Setup instructions for a gitian build of Cubex-Network using a Debian VM or physical system.*
 
-Gitian is the deterministic build process that is used to build the CUB
+Gitian is the deterministic build process that is used to build the Cubex-Network
 Core executables. It provides a way to be reasonably sure that the
 executables are really built from source on GitHub. It also makes sure that
 the same, tested dependencies are used and statically built into the executable.
@@ -11,7 +11,7 @@ the same, tested dependencies are used and statically built into the executable.
 Multiple developers build the source code by following a specific descriptor
 ("recipe"), cryptographically sign the result, and upload the resulting signature.
 These results are compared and only if they match, the build is accepted and uploaded
-to cub-crypto.com.
+to https://github.com/cubex-network/.
 
 More independent gitian builders are needed, which is why I wrote this
 guide. It is preferred to follow these steps yourself instead of using someone else's
@@ -26,7 +26,7 @@ Table of Contents
 - [Installing gitian](#installing-gitian)
 - [Setting up gitian images](#setting-up-gitian-images)
 - [Getting and building the inputs](#getting-and-building-the-inputs)
-- [Building CUB](#building-cub)
+- [Building Cubex-Network](#building-cub)
 - [Building an alternative repository](#building-an-alternative-repository)
 - [Signing externally](#signing-externally)
 - [Uploading signatures](#uploading-signatures)
@@ -277,12 +277,12 @@ cd ..
 
 **Note**: When sudo asks for a password, enter the password for the user *debian* not for *root*.
 
-Clone the git repositories for cub and gitian and then checkout the cub version that you want to build.
+Clone the git repositories for Cubex-Network and gitian and then checkout the Cubex-Network version that you want to build.
 
 ```bash
 git clone https://github.com/devrandom/gitian-builder.git
-git clone https://github.com/cubexteam/cub.git
-cd cub
+git clone https://github.com/cubex-network/cubex.git
+cd cubex
 git checkout v${VERSION}
 cd ..
 ```
@@ -321,16 +321,16 @@ There will be a lot of warnings printed during build of the images. These can be
 Getting and building the inputs
 --------------------------------
 
-Follow the instructions in [doc/release-process.md](release-process.md) in the cub repository
+Follow the instructions in [doc/release-process.md](release-process.md) in the Cubex-Network repository
 under 'Fetch and build inputs' to install sources which require manual intervention. Also follow
 the next step: 'Seed the Gitian sources cache', which will fetch all necessary source files allowing
 for gitian to work offline.
 
-Building CUB
+Building Cubex-Network
 ----------------
 
-To build CUB (for Linux, OSX and Windows) just follow the steps under 'perform
-gitian builds' in [doc/release-process.md](release-process.md) in the cub repository.
+To build Cubex-Network (for Linux, OSX and Windows) just follow the steps under 'perform
+gitian builds' in [doc/release-process.md](release-process.md) in the Cubex-Network repository.
 
 This may take a long time as it also builds the dependencies needed for each descriptor.
 These dependencies will be cached after a successful build to avoid rebuilding them when possible.
@@ -377,11 +377,11 @@ and inputs.
 
 For example:
 ```bash
-URL=https://github.com/cubexteam/cub.git
+URL=https://github.com/cubex-network/cubex.git
 COMMIT=b616fb8ef0d49a919b72b0388b091aaec5849b96
-./bin/gbuild --commit cub=${COMMIT} --url cub=${URL} ../cub/contrib/gitian-descriptors/gitian-linux.yml
-./bin/gbuild --commit cub=${COMMIT} --url cub=${URL} ../cub/contrib/gitian-descriptors/gitian-win.yml
-./bin/gbuild --commit cub=${COMMIT} --url cub=${URL} ../cub/contrib/gitian-descriptors/gitian-osx.yml
+./bin/gbuild --commit cub=${COMMIT} --url cub=${URL} ../cubex/contrib/gitian-descriptors/gitian-linux.yml
+./bin/gbuild --commit cub=${COMMIT} --url cub=${URL} ../cubex/contrib/gitian-descriptors/gitian-win.yml
+./bin/gbuild --commit cub=${COMMIT} --url cub=${URL} ../cubex/contrib/gitian-descriptors/gitian-osx.yml
 ```
 
 Signing externally
@@ -390,15 +390,15 @@ Signing externally
 If you want to do the PGP signing on another device that's also possible; just define `SIGNER` as mentioned
 and follow the steps in the build process as normal.
 
-    gpg: skipped "cubcoin": secret key not available
+    gpg: skipped "Cubex-Network": secret key not available
 
 When you execute `gsign` you will get an error from GPG, which can be ignored. Copy the resulting `.assert` files
 in `gitian.sigs` to your signing machine and do
 
 ```bash
-    gpg --detach-sign ${VERSION}-linux/${SIGNER}/cub-build.assert
-    gpg --detach-sign ${VERSION}-win/${SIGNER}/cub-build.assert
-    gpg --detach-sign ${VERSION}-osx/${SIGNER}/cub-build.assert
+    gpg --detach-sign ${VERSION}-linux/${SIGNER}/cubex-build.assert
+    gpg --detach-sign ${VERSION}-win/${SIGNER}/cubex-build.assert
+    gpg --detach-sign ${VERSION}-osx/${SIGNER}/cubex-build.assert
 ```
 
 This will create the `.sig` files that can be committed together with the `.assert` files to assert your
@@ -408,6 +408,6 @@ Uploading signatures (not yet implemented)
 ---------------------
 
 In the future it will be possible to push your signatures (both the `.assert` and `.assert.sig` files) to the
-[cub/gitian.sigs](https://github.com/cub-crypto/gitian.sigs/) repository, or if that's not possible to create a pull
+[cubex/gitian.sigs](https://github.com/cubex-crypto/gitian.sigs/) repository, or if that's not possible to create a pull
 request.
 There will be an official announcement when this repository is online.
