@@ -1,3 +1,0 @@
-qt/qt_libbitcoinqt_a-qrc_cub.o: qt/qrc_cub.cpp /usr/include/stdc-predef.h
-
-/usr/include/stdc-predef.h:
