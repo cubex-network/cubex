@@ -1,0 +1,11 @@
+[Protocol]
+exec=cub-qt '%u'
+protocol=cub
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false
