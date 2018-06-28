@@ -6,15 +6,15 @@ SetCompressor /SOLID lzma
 # General Symbol Definitions
 !define REGKEY "SOFTWARE\$(^Name)"
 !define VERSION 1.0.0
-!define COMPANY "Cub"
-!define URL http://cubex.cash
+!define COMPANY "Cubex-Network"
+!define URL https://cubexcoin.net
 
 # MUI Symbol Definitions
-!define MUI_ICON "/home/daishizu/1.CubexNetwork-project-files/cubex-2.0.0.0/share/pixmaps/bitcoin.ico"
-!define MUI_WELCOMEFINISHPAGE_BITMAP "/home/daishizu/1.CubexNetwork-project-files/cubex-2.0.0.0/share/pixmaps/nsis-wizard.bmp"
+!define MUI_ICON "/home/daishizu/Documents/cubex/share/pixmaps/bitcoin.ico"
+!define MUI_WELCOMEFINISHPAGE_BITMAP "/home/daishizu/Documents/cubex/share/pixmaps/nsis-wizard.bmp"
 !define MUI_HEADERIMAGE
 !define MUI_HEADERIMAGE_RIGHT
-!define MUI_HEADERIMAGE_BITMAP "/home/daishizu/1.CubexNetwork-project-files/cubex-2.0.0.0/share/pixmaps/nsis-header.bmp"
+!define MUI_HEADERIMAGE_BITMAP "/home/daishizu/Documents/cubex/share/pixmaps/nsis-header.bmp"
 !define MUI_FINISHPAGE_NOAUTOCLOSE
 !define MUI_STARTMENUPAGE_REGISTRY_ROOT HKLM
 !define MUI_STARTMENUPAGE_REGISTRY_KEY ${REGKEY}
@@ -22,7 +22,7 @@ SetCompressor /SOLID lzma
 !define MUI_STARTMENUPAGE_DEFAULTFOLDER "Cubex-Network Core"
 !define MUI_FINISHPAGE_RUN $INSTDIR\cub-qt.exe
 !define MUI_UNICON "${NSISDIR}\Contrib\Graphics\Icons\modern-uninstall.ico"
-!define MUI_UNWELCOMEFINISHPAGE_BITMAP "/home/daishizu/1.CubexNetwork-project-files/cubex-2.0.0.0/share/pixmaps/nsis-wizard.bmp"
+!define MUI_UNWELCOMEFINISHPAGE_BITMAP "/home/daishizu/Documents/cubex/share/pixmaps/nsis-wizard.bmp"
 !define MUI_UNFINISHPAGE_NOAUTOCLOSE
 
 # Included files
@@ -48,7 +48,7 @@ Var StartMenuGroup
 !insertmacro MUI_LANGUAGE English
 
 # Installer attributes
-OutFile /home/daishizu/1.CubexNetwork-project-files/cubex-2.0.0.0/cub-${VERSION}-win-setup.exe
+OutFile /home/daishizu/Documents/cubex/cub-${VERSION}-win-setup.exe
 !if "" == "64"
 InstallDir $PROGRAMFILES64\Cub
 !else
@@ -59,7 +59,7 @@ XPStyle on
 BrandingText " "
 ShowInstDetails show
 VIProductVersion ${VERSION}.0
-VIAddVersionKey ProductName "Cub"
+VIAddVersionKey ProductName "Cubex-Network"
 VIAddVersionKey ProductVersion "${VERSION}"
 VIAddVersionKey CompanyName "${COMPANY}"
 VIAddVersionKey CompanyWebsite "${URL}"
@@ -73,14 +73,14 @@ ShowUninstDetails show
 Section -Main SEC0000
     SetOutPath $INSTDIR
     SetOverwrite on
-    File /home/daishizu/1.CubexNetwork-project-files/cubex-2.0.0.0/release/cub-qt.exe
-    File /oname=COPYING.txt /home/daishizu/1.CubexNetwork-project-files/cubex-2.0.0.0/COPYING
-    File /oname=readme.txt /home/daishizu/1.CubexNetwork-project-files/cubex-2.0.0.0/doc/README_windows.txt
+    File /home/daishizu/Documents/cubex/release/cub-qt.exe
+    File /oname=COPYING.txt /home/daishizu/Documents/cubex/COPYING
+    File /oname=readme.txt /home/daishizu/Documents/cubex/doc/README_windows.txt
     SetOutPath $INSTDIR\daemon
-    File /home/daishizu/1.CubexNetwork-project-files/cubex-2.0.0.0/release/cubd.exe
-    File /home/daishizu/1.CubexNetwork-project-files/cubex-2.0.0.0/release/cub-cli.exe
+    File /home/daishizu/Documents/cubex/release/cubd.exe
+    File /home/daishizu/Documents/cubex/release/cub-cli.exe
     SetOutPath $INSTDIR\doc
-    File /r /home/daishizu/1.CubexNetwork-project-files/cubex-2.0.0.0/doc\*.*
+    File /r /home/daishizu/Documents/cubex/doc\*.*
     SetOutPath $INSTDIR
     WriteRegStr HKCU "${REGKEY}\Components" Main 1
 

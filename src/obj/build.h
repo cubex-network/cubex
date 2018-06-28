@@ -1,0 +1,2 @@
+#define BUILD_SUFFIX d98961a-dr4ge
+#define BUILD_DATE "2018-06-26 23:26:05 +0200"
