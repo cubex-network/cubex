@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 #
-# Use the raw transactions API to spend Cubs received on particular addresses,
+# Use the raw transactions API to spend cubex-networks received on particular addresses,
 # and send any change back to that same address.
 #
 # Example usage:
@@ -33,7 +33,7 @@ def check_json_precision():
         raise RuntimeError("JSON encode/decode loses precision")
 
 def determine_db_dir():
-    """Return the default location of the cub data directory"""
+    """Return the default location of the cubex-network data directory"""
     if platform.system() == "Darwin":
         return os.path.expanduser("~/Library/Application Support/CUB/")
     elif platform.system() == "Windows":
@@ -221,9 +221,9 @@ def main():
 
     parser = optparse.OptionParser(usage="%prog [options]")
     parser.add_option("--from", dest="fromaddresses", default=None,
-                      help="addresses to get Cubs from")
+                      help="addresses to get CUB from")
     parser.add_option("--to", dest="to", default=None,
-                      help="address to get send Cubs to")
+                      help="address to get send CUBs to")
     parser.add_option("--amount", dest="amount", default=None,
                       help="amount to send")
     parser.add_option("--fee", dest="fee", default="0.0",

@@ -18,7 +18,7 @@ For example:
   ./github-merge.py 3077
 
 (in any git repository) will help you merge pull request #3077 for the
-cubexteam/cub repository.
+cubex-network/cubex repository.
 
 What it does:
 * Fetch master and the pull request.
@@ -36,16 +36,16 @@ couldn't mess with the sources.
 
 Setup
 ---------
-Configuring the github-merge tool for the Cub repository is done in the following way:
+Configuring the github-merge tool for the cubex-network repository is done in the following way:
 
-    git config githubmerge.repository cubexteam/cub
+    git config githubmerge.repository cubex-network/cubex
     git config githubmerge.testcmd "make -j4 check" (adapt to whatever you want to use for testing)
     git config --global user.signingkey mykeyid (if you want to GPG sign)
 
 optimize-pngs.py
 ================
 
-A script to optimize png files in the cub
+A script to optimize png files in the cubex-network
 repository (requires pngcrush).
 
 fix-copyright-headers.py
