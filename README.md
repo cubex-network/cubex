@@ -80,7 +80,7 @@ Changes to translations as well as new translations can be submitted to
 
 **Important**: We do not accept translation changes as GitHub pull requests.
 
-## Donate CUB to support this project
+## Donate to support this project
 ###### BTC: 15GhMR1FBFYeRsGJGtaJ6x474gafF9wanr
 ###### CUB: CVa72Tuicm3C9KCmLXbZUdcG6mJJoRwQUg
 ###### LTC: LcEJ6kydrZhkmvcmh3UQMizBdc8yQ2eoPy
